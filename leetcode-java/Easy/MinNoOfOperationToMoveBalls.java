@@ -7,7 +7,7 @@ class Solution {
                 if(i==j) continue;
                 if(ch[j]=='1') answer[i] = answer[i]+Math.abs(i-j);
             }
-        };
+        }
         return answer;
     }
 }
